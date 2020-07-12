@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>stock market</title>
+        <style>
+            a {
+                color: rgb(1, 8, 8);
+                text-decoration: none;
+            }
+            h1 {
+                border-bottom: 1px black solid ;
+                text-align: center;
+
+            }
+            .목록{
+                border: 1px black solid;
+                margin: 0px;
+            }
+            .내용{
+                border: 1px black solid;
+                
+            }
+            #grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                border: 1px red solid;
+            }
+ </style>
+    </head>
+<body>
+    <h1><a href="index.html">주식시장</a></h1>
+<div id="grid">   
+    <div class="목록">
+        <p>목록</p>
+        <ul>
+            <li><a href="0.html">지수</a></li>
+            <li><a href="1.html">국내</a></li>
+            <li><a href="2.html">해외</a></li>
+            <li><a href="3.html">원자재</a></li>
+        </ul>
+    </div>
+    <ul class="내용">
+            <p>사이트 주소</p>
+        <ol>
+            <li><a href="https://www.investing.com/" target="_blank">investing.com</a></li>
+            <li><a href="https://finance.naver.com/" target="_blank">네이버 증권</a></li>
+        </ol>
+    </ul>
+</div>
+</body>
